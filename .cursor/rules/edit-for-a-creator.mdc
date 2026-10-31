@@ -1,0 +1,18 @@
+---
+description: How to use this repo to edit a creator's short-form video
+alwaysApply: true
+---
+
+# Short-form editor
+
+Follow `AGENTS.md`. It is the full guide for every assistant. Do the work in this order:
+
+1. Confirm `ffmpeg`, `ffprobe`, and Python 3.10+ are installed. Install `requirements.txt` in a `.venv` if needed.
+2. Set up the creator's style profile first (`style/questionnaire.py` or `style/from_reference.py`). Show it and wait for their OK. Presets are starting points only.
+3. Set sound preferences from that profile. `ELEVENLABS_API_KEY` is optional and must be set in the environment by the creator. Never ask them to paste a key into chat, and never write a key into the repo.
+4. Take raw footage only after the profile exists. Probe and transcribe. Do not edit the original file.
+5. Show an edit plan and get an OK before rendering.
+6. Cut, render, and run `qa/verify.py`. A failed or not-run check means the file is not deliverable. Name those checks.
+7. Record review notes (`project/notes.py`) and export. Use receipts so later changes re-run only stale stages.
+
+The creator's profile wins over the files in `style/presets/`. Do not invent a posting schedule or a personal rule set.

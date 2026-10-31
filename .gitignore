@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+work/
+outputs/
+raw/
+*.mov
+*.mp4
+*.webm
+*.mkv
+assets/music/*.mp3
+assets/music/*.wav
+assets/music/*.m4a
+assets/music/*.flac

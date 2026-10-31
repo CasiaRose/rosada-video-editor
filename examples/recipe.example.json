@@ -1,0 +1,33 @@
+{
+  "edit": "aroll_vo.mov",
+  "words": "words.json",
+  "joins": "joins.json",
+  "style": "../style/presets/plain.yaml",
+  "names": ["Alex"],
+  "fix": "",
+  "emphasis": ["goal:accent", "Alex:accent_2"],
+  "hook": {
+    "broll": {"file": "broll/wide.mp4", "ss": 0, "kind": "footage"},
+    "dur": 2.4,
+    "kicker": "",
+    "lines": ["The first line", "and the *point*"],
+    "stakes": ""
+  },
+  "broll": [
+    {
+      "t": 4.0,
+      "dur": 2.5,
+      "file": "broll/desk.mp4",
+      "ss": 1.0,
+      "label": {"name": "Alex", "role": "guest", "top": 1180},
+      "slow": 1.0,
+      "kind": "footage"
+    }
+  ],
+  "panels": [],
+  "show": {},
+  "sections": [],
+  "punchins": "auto",
+  "song": "generate",
+  "out": "lesson.mp4"
+}

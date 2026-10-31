@@ -1,0 +1,24 @@
+{
+  "_comment": "Copy to config.json inside the edit's build directory. Paths are relative to that directory. Names and hotwords belong in this file or in VEDIT_NAMES / VEDIT_HOTWORDS, not in the presets.",
+  "raw": "../raw.mov",
+  "fps": 30,
+  "speed": 1.0,
+  "av_offset": null,
+  "hotwords": "",
+  "initial_prompt": "",
+  "whisper_model": "medium",
+  "silence_db": -40,
+  "silence_min": 0.40,
+  "silence_pad": 0.11,
+  "keep_in": null,
+  "keep_out": null,
+  "last_word_hold_min": 0.80,
+  "music": "../music.wav",
+  "sfx_dir": "../../assets/sfx",
+  "vo_gain_db": 14,
+  "emphasis": [
+    {"word": "goal", "near": 12.0, "colour": "PRI"}
+  ],
+  "phone_crf": 25.5,
+  "title": "Lesson"
+}

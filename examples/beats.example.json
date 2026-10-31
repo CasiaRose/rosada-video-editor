@@ -1,0 +1,17 @@
+{
+  "_comment": "Output frames at 30 fps, inclusive ranges. Derive every frame from timeline.json word starts (frame = round(s*30)). See SKILL.md section 3.",
+  "segments": [
+    ["face", 0, 51, "FACE"],
+    ["HQ1", 52, 96, "BROLL"],
+    ["brief", 97, 172, "PANEL_F"],
+    ["face", 173, 269, "FACE"]
+  ],
+  "broll": {"HQ1": "clips/HQ1.mp4"},
+  "docked": [["roster", 173, 269]],
+  "glitch": [[52, false], [97, false], [173, false]],
+  "zoom": [[0, 1.0], [173, 1.0], [231, 1.08], [384, 1.0], [409, 1.08], [747, 1.15], [1645, 1.25]],
+  "zoom_hard": [173, 384, 747],
+  "card": {"f0": 0, "f1": 89, "png": "graphics/hook_card.png", "cy": 150},
+  "callouts": [[696, 774, "> note: recently added · still improving"]],
+  "panels_module": "panels"
+}

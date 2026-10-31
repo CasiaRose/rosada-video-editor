@@ -1,0 +1,5 @@
+{"scene":"flow","dur":3.6,"bg":"green","pos":"full","kicker":"SAMPLE · BUILDS","pill":"LIVE","title":"Lead-gen *automation*","done_label":"Ready to sell","done_frame":62,
+ "nodes":[{"label":"Find leads","sub":"maps + web","x":0,"y":40,"frame":6},{"label":"Enrich","sub":"public page","x":340,"y":0,"frame":14,"color":"c"},
+          {"label":"Score fit","sub":"rubric","x":340,"y":200,"frame":22,"hot":true},{"label":"Draft outreach","sub":"per lead","x":680,"y":100,"frame":30,"color":"k"},
+          {"label":"Human review","sub":"by me","x":340,"y":420,"frame":40,"color":"c"},{"label":"Send + log","sub":"CRM","x":680,"y":420,"frame":48}],
+ "edges":[[0,1],[0,2],[1,3],[2,3],[2,4],[4,5]]}

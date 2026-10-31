@@ -1,0 +1,4 @@
+{"scene":"stat_goal","dur":4.0,"bg":"green","pos":"full","kicker":"PROGRESS","pill":"GOAL","title":"Built, not *done*",
+ "rows":[{"label":"Built","sub":"sample","done":true,"frame":6},{"label":"Tested","sub":"12/12 runs","done":true,"frame":14},{"label":"Reviewed","sub":"by me","done":true,"frame":22},
+         {"label":"First project","sub":"next","next":true,"tag":"NEXT","frame":32}],
+ "progress":0.75,"progress_label":"Progress","progress_frame":40}
