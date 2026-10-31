@@ -1,0 +1,2 @@
+{"scene":"calendar","dur":3.6,"bg":"none","pos":"dock","kicker":"CONTENT CALENDAR","pill":"THIS WEEK","title":"Posting *plan*","today":0,"dates":[12,13,14,15,16,17,18],
+ "events":[{"day":0,"label":"Meet Alex","frame":10},{"day":2,"label":"Build demo","color":"c","frame":16},{"day":4,"label":"Offer post","color":"k","frame":22},{"day":6,"label":"Recap","frame":28}]}

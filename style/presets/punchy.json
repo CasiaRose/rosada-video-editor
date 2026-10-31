@@ -1,0 +1,11 @@
+{
+  "name": "punchy",
+  "colors": {"accent": "#C4492C", "caption_active": "#C4492C"},
+  "captions": {"mode": "karaoke", "animation": "pop", "size": 64, "max_words": 3},
+  "hook": {"placement": "top", "y": 180},
+  "pacing": {"speed": 1.08, "silence_keep_s": 0.14, "min_face_shot_s": 1.0},
+  "broll": {"density": "dense", "per_minute": 6},
+  "border": {"enabled": true},
+  "sound": {"mood": "bright", "genre": "pop", "energy": "high", "tempo_bpm": 122, "intensity": 0.7, "sfx_moments": ["cut", "text", "transition"]},
+  "rules": {"glitch_on_sections": true}
+}

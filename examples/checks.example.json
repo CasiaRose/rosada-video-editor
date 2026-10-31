@@ -1,0 +1,11 @@
+{
+  "loudness": {"enabled": true},
+  "true_peak": {"enabled": true},
+  "av_sync": {"enabled": true, "max_delta_s": 0.08},
+  "black_frames": {"enabled": true, "luma_below": 12},
+  "frozen_or_repeated": {"enabled": true, "max_ratio": 0.05},
+  "caption_safe_zone": {"enabled": true},
+  "text_overlap": {"enabled": true},
+  "skin_cast": {"enabled": false, "max_delta": 1.5},
+  "orientation": {"enabled": false}
+}

@@ -1,0 +1,27 @@
+name: plain
+captions:
+  mode: block
+  animation: none
+hook:
+  placement: top
+  y: 240
+pacing:
+  speed: 1.0
+broll:
+  density: medium
+  per_minute: 3
+border:
+  enabled: false
+cover:
+  layout: full_frame
+  badge: ""
+sound:
+  mood: calm
+  genre: ambient
+  energy: low
+  tempo_bpm: 90
+  sfx_moments:
+    - cut
+rules:
+  show_references: false
+  glitch_on_sections: false

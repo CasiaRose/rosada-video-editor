@@ -1,0 +1,9 @@
+{
+  "name": "steady",
+  "captions": {"mode": "block", "animation": "none", "size": 54},
+  "hook": {"placement": "top", "y": 200},
+  "pacing": {"speed": 0.95, "silence_keep_s": 0.4, "min_face_shot_s": 2.0},
+  "broll": {"density": "sparse", "per_minute": 1},
+  "border": {"enabled": false},
+  "sound": {"mood": "warm", "genre": "acoustic", "energy": "low", "tempo_bpm": 78, "sfx_moments": ["cut"]}
+}

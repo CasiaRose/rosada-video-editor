@@ -1,0 +1,3 @@
+{"scene":"techtok_ui","dur":3.6,"bg":"none","pos":"dock","kicker":"SAMPLE ROSTER","pill":"LIVE","title":"6 seats","badge":"THIS VIDEO","highlight_frame":75,
+ "tiles":[{"name":"Strategy","role":"Riley","progress":0.7},{"name":"Outbound","role":"Jordan","progress":0.45},{"name":"Builds","role":"Alex","progress":0.85,"highlight":true},
+          {"name":"Content","role":"Sam","progress":0.6},{"name":"Copy","role":"Quinn","progress":0.5},{"name":"Ops","role":"Avery","progress":0.35}]}
